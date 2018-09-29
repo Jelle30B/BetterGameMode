@@ -1,0 +1,25 @@
+name: BetterGameMode
+version: 1.0
+main: me.Jelle30.BetterGameMode.Main
+author: Jelle30
+commands:
+  Gamemode:
+    description: Switch your gamemode! [alias, 'gm']
+    aliases: [gm]
+  fly:
+    description: Lets you fly!
+  bettergamemode:
+    description: Main command, usage /bettergamemode reload
+permissions:
+  gamemode.creative:
+    description: Permission to commands "/gm creative, /gm c, /gm 1"
+  gamemode.survival:
+    description: Permission to commands "/gm survival, /gm s, /gm 0"
+  gamemode.adventure:
+    description: Permission to commands "/gm adventure, gm a, gm 2"
+  gamemode.spectator:
+    description: Permission to commands "/gm spectator, /gm spec, /gm 3"
+  gamemode.fly:
+    description: Permission to command "/fly"
+  gamemode.reload:
+    description: Permission to command "/BetterGameMode reload"

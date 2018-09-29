@@ -1,0 +1,77 @@
+##############################################################
+####                  BetterGameMode Config               ####
+##############################################################
+
+#-----------------------------#
+#          Variables          #
+#-----------------------------#
+
+
+# Player (name) variable = %player%
+
+#-----------------------------#
+#         Color Codes         #
+#-----------------------------#
+
+## COLOR CODES ##
+# &0	Black
+# &1	Dark Blue
+# &2	Dark Green
+# &3	Dark Aqua
+# &4	Dark Red
+# &5	Dark Purple
+# &6	Gold
+# &7	Gray
+# &8	Dark
+# &9	Blue
+# &a	Green
+# &b	Aqua
+# &c	Red
+# &d	Light Purple
+# &e	Yellow
+# &f	White
+
+
+#-----------------------------#
+#           Messages          #
+#-----------------------------#
+
+# If the player does not have permission to execute command.
+NoPermission: "&f[&aBetterGameMode&f] &4You do not have permission to execute that command!"
+
+# Command /BetterGameMode reload does not have enough args.
+BetterGameModeNoSubcommand: "&f[&aBetterGameMode&f] &4Usage: /Bettergamemode reload"
+
+# Message when config is reloaded
+ConfigReloaded: "&f[&aBetterGameMode&f] &aConfig Reloaded!"
+
+# How to use the command /gamemode.
+GamemodeUsage: "&f[&aBetterGameMode&f] &4Usage: /gamemode [gamemode] [alias: /gm]"
+
+# Set flying enabled.
+FlyEnable: "&7Set &cflying &7enabled for &f%player%&7."
+
+# Set flying disabled.
+FlyDisable: "&7Set &cflying &7disabled for &f%player%&7."
+
+# Set gamemode creative.
+GamemodeCreative: "&7Set gamemode to &ccreative &7for &f%player%&7."
+
+# Set gamemode survival.
+GamemodeSurvival: "&7Set gamemode to &csurvival &7for &f%player%&7."
+
+# Set gamemode adventure.
+GamemodeAdventure: "&7Set gamemode to &cadventure &7for &f%player%&7."
+
+# Set gamemode spectator.
+GamemodeSpectator: "&7Set gamemode to &cspectator &7for &f%player%&7."
+
+# ToggleFlightinSpectator is set to false
+NotAllowedToggleFlight:  "&f[&aBetterGameMode&f] &4You are not allowed to toggle flight while in spectator mode! You can change this in config."
+
+#-----------------------------#
+#           Settings          #
+#-----------------------------#
+
+# Toggle being able to toggle flight when you are in spectator mode, cause this will bugg you to the voic any you will die. true = you can, false = you can't.
+ToggleFlightinSpectator: false
